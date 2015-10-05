@@ -5,7 +5,7 @@ class FirstTest  extends PHPUnit_Framework_TestCase
   {
     echo "Running a dummy test", PHP_EOL;
     
-    $pdo = new \PDO('mysql:dbname=mydb;host=localhost');
+    $pdo = new \PDO('mysql:dbname=circle_test;host=localhost', 'ubuntu', '');
   }
 }
 
