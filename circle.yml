@@ -1,3 +1,8 @@
 test:
   override:
     - phpunit tests
+
+machine:
+  php:
+    version: 5.5.21
+    
