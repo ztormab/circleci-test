@@ -1,3 +1,4 @@
 test:
   override:
-    - phpunit tests/
+    - phpunit tests/test.php
+    
